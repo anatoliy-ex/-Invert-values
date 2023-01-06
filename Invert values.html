@@ -10,11 +10,12 @@
 <script>
 function invert(array) 
 {
-   for(var i = 0; i <= array.length; i++)
+  var array1 = [];
+   for(var i = 0; i < array.length; i++)
      {
-       array[i] *= (-1);
+       array1[i] = array[i] * (-1);
      }
-   return ;
+   return array1;
 }
 </script>
 </body>
